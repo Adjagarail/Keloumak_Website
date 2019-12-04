@@ -26,9 +26,9 @@ function Menu() {
 
                     <div className="header-content d-none d-md-block">
                         <div className="header-contacts">
-                            <div className="header-contact-item"><a href="tel:+00853462188" className="phone-link">+0085 346 2188</a></div>
+                            <div className="header-contact-item"><a href="tel:(+221) 77 293 55 53" className="phone-link">(+221) 77 293 55 53</a></div>
                             <div className="header-contact-divider">/</div>
-                            <div className="header-contact-item"><a href="mailto:contact@lewisstudio.com" className="mail-link">contact@lewisstudio.com</a></div>
+                            <div className="header-contact-item"><a href="mailto:arahmano@keloumakcoding.com" className="mail-link">arahmano@keloumakcoding.com</a></div>
                     </div>
                 </div>
             </div>
@@ -43,20 +43,9 @@ function Menu() {
 
                     <div className="menu-main" id="accordion">
                     <ul>
-                            <li className="active"><a data-text="Home" data-toggle="collapse" href="#menuHome" role="button" aria-expanded="true" aria-controls="menuHome">Home</a>
-                                <div className="collapse show" id="menuHome" data-parent="#accordion">
-                                <ul>
-                                        <li><a href="home-flash.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Flash">Flash</a></li>
-                                        <li className="active"><a href="home-horizontal.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Parallax Horizontal">Parallax Horizontal</a></li>
-                                        <li><a href="home-minimal.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Minimal">Minimal</a></li>
-                                        <li><a href="home-zoom.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Zoom Parallax Image">Zoom Parallax Image</a></li>
-                                        <li><a href="home-3d.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="3D Parallax">3D Parallax</a></li>
-                                        <li><a href="home-video.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Video Background">Video Background</a></li>
-                                        <li><a href="home-piling.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Parallax Piling">Parallax Piling</a></li>
-                                </ul>
-                            </div>
+                            <li className="active"><a data-text="Accueil" data-toggle="collapse" href="#menuHome" role="button" aria-expanded="true" aria-controls="menuHome"> Acceuil </a>
                         </li>
-                        <li><a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
+                            <li><a data-text="L'équipe" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">L'équipe</a>
                                 <div className="collapse" id="menuWorks" data-parent="#accordion">
                                 <ul>
                                         <li><a href="work-grid.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Grid">Grid</a></li>
@@ -72,7 +61,7 @@ function Menu() {
                                 </ul>
                             </div>
                         </li>
-                        <li><a data-text="News" data-toggle="collapse" href="#menuNews" role="button" aria-expanded="false" aria-controls="menuNews">News</a>
+                            <li><a data-text="Nos Tarifs" data-toggle="collapse" href="#menuNews" role="button" aria-expanded="false" aria-controls="menuNews">Nos Tarifs</a>
                                 <div className="collapse" id="menuNews" data-parent="#accordion">
                                 <ul>
                                         <li><a href="news-grid.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Grid">Grid</a></li>
@@ -83,7 +72,7 @@ function Menu() {
                                 </ul>
                             </div>
                         </li>
-                        <li><a data-text="Studio" data-toggle="collapse" href="#menuStudio" role="button" aria-expanded="false" aria-controls="menuStudio">Studio</a>
+                            <li><a data-text="Blog" data-toggle="collapse" href="#menuStudio" role="button" aria-expanded="false" aria-controls="menuStudio">Blog</a>
                                 <div className="collapse" id="menuStudio" data-parent="#accordion">
                                 <ul>
                                         <li><a href="about-us.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="About Us">About Us</a></li>
@@ -98,7 +87,7 @@ function Menu() {
                                 </ul>
                             </div>
                         </li>
-                            <li><a href="contact.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Contact">Contact</a></li>
+                            <li><a href="contact.html" className="animsition-link" data-animsition-out-classname="fade-out" data-text="Nous Contacter"> Nous Contacter </a></li>
                     </ul>
                 </div>
 
@@ -108,7 +97,7 @@ function Menu() {
                             <li><a href="#"><i className="socicon-facebook"></i></a></li>
                             <li><a href="#"><i className="socicon-googleplus"></i></a></li>
                     </ul>
-                        <div className="menu-copyright">&copy; 2019 <strong>LEWIS</strong>. All Rights Reserved.<br /> design by <strong>Logancee</strong></div>
+                        <div className="menu-copyright">&copy; 2020 <strong> Keloumak Coding </strong>. Tous droits reservés .<br /> design by <strong>K.Coding</strong></div>
                 </div>
             </div>
         </header>

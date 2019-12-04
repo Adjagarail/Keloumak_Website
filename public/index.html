@@ -21,20 +21,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+            <!-- CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/animsition.min.css" rel="stylesheet">
+            <link href="css/owl.carousel.min.css" rel="stylesheet">
+            <link href="css/owl.theme.default.min.css" rel="stylesheet">
+            <link href="css/socicon.css" rel="stylesheet">
+            <link href="css/ionicons.min.css" rel="stylesheet">
+            <link href="css/animate.min.css" rel="stylesheet">
+            <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+            <link href="css/jquery.pagepiling.css" rel="stylesheet">
+            
+            <!-- Main CSS -->
+            <link href="css/style.css" rel="stylesheet">
     <title> Keloumak Coding Website </title>
-        <!-- CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/animsition.min.css" rel="stylesheet">
-        <link href="css/owl.carousel.min.css" rel="stylesheet">
-        <link href="css/owl.theme.default.min.css" rel="stylesheet">
-        <link href="css/socicon.css" rel="stylesheet">
-        <link href="css/ionicons.min.css" rel="stylesheet">
-        <link href="css/animate.min.css" rel="stylesheet">
-        <link href="css/jquery.fancybox.min.css" rel="stylesheet">
-        <link href="css/jquery.pagepiling.css" rel="stylesheet">
-        
-        <!-- Main CSS -->
-        <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="theme-orange dark-horizontal">
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -53,7 +53,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!--Javascript -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
         <script src="js/smoothscroll.js"></script>
         <script src="js/popper.min.js"></script>
@@ -97,7 +97,40 @@
             $('.a-pp-next').on('click', function () {
               $.fn.pagepiling.moveSectionDown();
             });
+
+            	/*-------------------------------------------------------------------------------
+                 Menu
+              -------------------------------------------------------------------------------*/
+
+            $('.a-nav-toggle').on('click', function () {
+              if ($('html').hasClass('body-menu-opened')) {
+                $('html').removeClass('body-menu-opened').addClass('body-menu-close');
+              } else {
+                $('html').addClass('body-menu-opened').removeClass('body-menu-close');
+              }
+            });
+
+            $('.navbar-nav .dropdown').on({
+              mouseenter: function () {
+                $(this).find('.dropdown-menu').show();
+              }, mouseleave: function () {
+                $(this).find('.dropdown-menu').hide();
+              }
+            });
+
+            var offset = $(window).height();
+            if ($('.a-affix').length) {
+              $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= offset) {
+                  $('.header').addClass('header-affix');
+                } else {
+                  $('.header').removeClass('header-affix');
+                }
+              });
+            };
           });
+          
         </script>
   </body>
 </html>
