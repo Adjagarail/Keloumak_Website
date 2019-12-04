@@ -4,31 +4,6 @@ import React from 'react'
 
 function Body(){
     return(
-        <div className="TOC">
-            <ul className="social social-fixed">
-                <li><a href="#"><i className="socicon-twitter"></i></a></li>
-                <li><a href="#"><i className="socicon-facebook"></i></a></li>
-                <li><a href="#"><i className="socicon-googleplus"></i></a></li>
-            </ul>
-
-
-            <div className="horizontal-nav">
-                <div className="container">
-                    <ul id="menu">
-                        <li data-menuanchor="Home" className="active"></li>
-                        <li data-menuanchor="Services"></li>
-                        <li data-menuanchor="Projects"></li>
-                        <li data-menuanchor="Clients"></li>
-                        <li data-menuanchor="Contacts"></li>
-                    </ul>
-                </div>
-                <div className="horizontal-controls">
-                    <button className="a-pp-prev">Precedent</button>
-                    <span className="divider">|</span>
-                    <button className="a-pp-next">Suivant</button>
-                </div>
-            </div>
-
             <div className="home-horizontal a-horizontal full-height">
                 <div className="section pp-scrollable slide slide1 slide-dark">
                     <div className="slide-container">
@@ -178,10 +153,6 @@ function Body(){
                 </div>
 
             </div>
-
-
-
-        </div>
     );
 }
 export default Body;

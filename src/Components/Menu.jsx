@@ -106,7 +106,7 @@ function Menu() {
                             <li><a href="#"><i className="socicon-facebook"></i></a></li>
                             <li><a href="#"><i className="socicon-googleplus"></i></a></li>
                         </ul>
-                        <div className="menu-copyright">&copy; 2019 <strong>LEWIS</strong>. All Rights Reserved.<br /> design by <strong>Logancee</strong></div>
+                        <div className="menu-copyright">&copy; 2020 <strong>SADIO</strong>. Tous droits réservés.<br /> Designed by <strong>Arahmano</strong></div>
                     </div>
                 </div>
             </header>
